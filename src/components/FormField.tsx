@@ -18,7 +18,7 @@ const FormField = ({ control, name, label, placeholder, type ="text"}: FormField
       <FormItem>
         <FormLabel className="label">{label}</FormLabel>
         <FormControl>
-          <Input placeholder={placeholder} className='input' {...field} />
+          <Input placeholder={placeholder} className='input' {...field} type={type}/>
         </FormControl>
         <FormMessage />
       </FormItem>
