@@ -9,7 +9,7 @@ import dayjs from 'dayjs';
      const feedback = null as Feedback | null;
      const normalizedType = /mix/gi.test(type) ? 'Mixed' : type;
      const formattedDate = dayjs(feedback?.createdAt || createdAt || Date.now()).format('MMM D, YYYY');
- 
+    console.log(userId);
      return (
          <div className="card-border w-[360px] max-sm:w-full min-h-96">
              <div className="card-interview">

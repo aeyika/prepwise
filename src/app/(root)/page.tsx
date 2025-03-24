@@ -14,6 +14,8 @@ const page = () => {
           <Button asChild className='btn-primary max-sm:w-full'>
             <Link href="/interview">Start an Interview</Link>
           </Button>
+      
+          <Link href="/sign-up" className='text-blue-500'>Sign Up</Link>
         </div>
         <Image src="/robot.png" alt="robo-dude" width={400} height={400} className="max-sm:hidden" />
       </section>
